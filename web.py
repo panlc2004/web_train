@@ -23,8 +23,8 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 CORS(app)
 
 input_size = tuple((299, 299))
-color_model_path = 'color_model_and_weight.h5'
-boxes_model_path = 'boxes_model_and_weight.h5'
+color_model_path = 'api/color_model_and_weight.h5'
+boxes_model_path = 'api/boxes_model_and_weight.h5'
 
 colors = ['黑色', '蓝色', '棕色', '绿色',
           '橙色', '紫色', '红色', '白色',
